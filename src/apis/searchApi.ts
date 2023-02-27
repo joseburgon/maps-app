@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-console.log(`env`, process.env)
-
 const searchApi = axios.create({
     baseURL: 'https://api.mapbox.com/geocoding/v5/mapbox.places',
     params: {
